@@ -1,0 +1,71 @@
+
+
+
+nav{
+    position: relative;
+    top:0;
+    border: 0;
+    height: 100vh;
+    left: 0;
+    background: #0a2540;
+    width:90px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.item-font{
+    font-size: 13px;
+}
+
+ul{
+    position: relative;
+    top: -10%;
+}
+
+.elem{
+    text-align: center;
+    display: flex;
+    transition: all 0.5 ease;
+}
+
+.elem{
+    color: #ffffff !important;
+}
+
+/* Target the anchor tags within li elements */
+li a {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center the text */
+}
+
+/* Optionally, style the icons for better spacing and size */
+li a i {
+    margin-bottom: 0px; /* Space between icon and text */
+    font-size: 15px; /* Adjust the size of the icon */
+}
+
+/* Style for the text */
+.item-font {
+    display: block; /* Ensure the span takes the full width */
+}
+
+.set{
+    position: relative;
+    bottom: 0px !important;
+}
+
+nav ul {
+    max-height: 100vh; /* Adjust this value as needed */
+    overflow-y: auto; /* Allows a scrollbar to appear when content overflows */
+    padding-right: 0px; /* Optional: To avoid content being hidden behind the scrollbar */
+}
+
+/* Other styles for nav, li, a, etc. */
+
+
+
+
+

@@ -1,0 +1,10 @@
+.topbarnav{
+  position: sticky !important;
+  height: 6%;
+  width: 100%;
+}
+
+.nav-item-icon{
+    margin-left: 35px;
+    color: #ffffff;
+}

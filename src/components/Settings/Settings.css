@@ -1,0 +1,13 @@
+.btn1{
+    float: left;
+    width: 150px;
+    height: 30px;
+    border: 1px solid #0A2540;
+    background-color: #0A2540;
+    color: #ffffff;
+    box-shadow: 1px 1px #6f7477;
+}
+
+.bi{
+    cursor: pointer;
+}

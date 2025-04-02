@@ -1,0 +1,45 @@
+.fundersInputWrapper {
+    text-align: left;
+}
+
+.fundersInputbtn {
+    float: left;
+    width: 150px;
+    height: 30px;
+    border: 1px solid #0A2540;
+    background-color: #0A2540;
+    color: #ffffff;
+    box-shadow: 1px 1px #6f7477;
+}
+
+.linkFunderInput{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.popup {
+    position: fixed;
+    z-index: 1000;
+    top: 50%;
+    left: 50%;
+    width: 80% !important;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.btn{
+    float: left;
+    width: 150px;
+    height: 30px;
+    border: 1px solid #4bbeff;
+    background-color: #4bbeff;
+    color: #ffffff;
+    box-shadow: 1px 1px #6f7477;
+}
+

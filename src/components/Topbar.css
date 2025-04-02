@@ -1,0 +1,143 @@
+nav {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0a2540;
+    height: 60px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+    background-color: #F5F5F5;
+}
+
+/*::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear,
+            left bottom,
+            left top,
+            color-stop(0.44, rgb(97, 146, 244)),
+            color-stop(0.72, rgb(42, 59, 245)),
+            color-stop(0.86, rgb(17, 31, 72)));
+}*/
+
+.topmainnavbar{
+    position: fixed;
+}
+
+nav ul,
+nav li,
+#topmainnavbar,
+#topmainnavbar li,
+.topsubnav,
+.topsubnav li {
+    list-style-type: none !important;
+    /* Using !important to ensure this rule is prioritized */
+}
+
+.activeLink {
+
+    color: #686b6f;
+
+}
+
+.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+    background-color: #0a2540 !important;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    outline: 0;
+    background-color: #0a2540;
+    border-radius: 10px;
+}
+
+#topmainnavbar,
+.topsubnav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+
+
+#topmainnavbar li,
+.topsubnav {
+    list-style-type: none;
+}
+
+#topmainnavbar li {
+    padding: 10px 20px;
+}
+
+.topsubnav {
+    margin-right: 50px;
+}
+
+.topsubnav li {
+    padding: 10px;
+}
+
+#topmainnavbar {
+    position: relative;
+    left: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    #topmainnavbar li,
+    .topsubnav li {
+        padding: 2px;
+        /* Adjust the padding for smaller screens */
+    }
+
+
+    .mainlist li a,
+    .topsubnav li a {
+        font-size: 14px;
+        /* Reduce the font size for small screens */
+    }
+
+    .mainlist li a svg,
+    .topsubnav li a svg {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+.notification-panel {
+    position: absolute;
+    top: 45px; 
+    right: 0;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px; 
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1000; 
+  }
+
+.notitification-text{
+    font-size: 14px;
+}  
+
+.emptyNotf{
+    width: 50px;
+    height: 45px;
+}
+  
